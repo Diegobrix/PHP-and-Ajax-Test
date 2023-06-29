@@ -1,3 +1,46 @@
+header {
+   display: flex;
+   justify-content: flex-end;
+   gap: .5rem;
+   padding: 1rem;
+   background: var(--neutral-200);
+}
+
+input {
+   border: 2px solid var(--neutral-300);
+   border-radius: 5px;
+   padding: 5px 10px;
+   min-width: 20rem;
+}
+
+main {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: .5rem;
+   padding: 2rem;
+   background: var(--neutral-100);
+}
+
+.product {
+   background: var(--neutral-200);
+   border-radius: 10px;
+   padding: 1rem;
+   text-align: center;
+}
+
+.product .product-banner {
+   width: 16rem;
+   aspect-ratio: 1/1.5;
+   margin: auto;
+}
+
+
 .product-details p {
    margin: 0;
+}
+
+.product-details .product-title {
+   font-size: 1.2rem;   
+   font-weight: var(--fw-200);
+   white-space: nowrap;
 }

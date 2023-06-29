@@ -50,7 +50,7 @@ function createElem(name, price, photo) {
    productElem.appendChild(prodBannerWrapper);
    prodTitle.innerHTML = name;
    prodDetailsWrapper.appendChild(prodTitle);
-   prodPrice.innerHTML = price;
+   prodPrice.innerHTML = `R$${price}`;
    prodDetailsWrapper.appendChild(prodPrice);
    productElem.appendChild(prodDetailsWrapper);
 
