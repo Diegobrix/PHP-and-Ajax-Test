@@ -1,0 +1,8 @@
+dialog {
+   position: fixed;
+   inset: auto 0 auto auto;
+   margin: auto;
+
+   width: 50%;
+   height: 100%;
+}

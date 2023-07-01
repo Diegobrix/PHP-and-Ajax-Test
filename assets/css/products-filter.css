@@ -1,3 +1,14 @@
 header {
    justify-content: center;
 }
+
+header .filter-wrapper {
+   display: flex;
+   align-items: center;
+   gap: 0 10px;
+}
+
+input[type="range"] {
+   accent-color: var(--neutral-300);
+   padding: 0;
+}
